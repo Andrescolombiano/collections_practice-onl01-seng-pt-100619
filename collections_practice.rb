@@ -37,17 +37,13 @@ def sum_array (array)
 end
   
 def add_s (array)
-#   new_array=[]
-#   array.each {|name|new_array << name name
-# end
-
- i = 0
-  while i < array.size
-    if i != 1
-      array[i] << "s"
+  counter = 0
+  while counter < array.size
+    if counter != 1
+      array[counter] << "s"
     end
-    i+=1
+    counter+=1
   end
-  array
+ 
 end
   
