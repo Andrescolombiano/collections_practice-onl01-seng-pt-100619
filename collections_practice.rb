@@ -38,6 +38,6 @@ end
   
 def add_s (array)
   new_array=[]
-  array.each 
+  array.each {|name|new_array << name name
 end
   
