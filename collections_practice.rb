@@ -31,7 +31,9 @@ new_array
 end
 
 def sum_array (array)
-  array.each{|num| num.inject}
+  sum = 0
+  array.each{|num| num.sum}
+  sum
 end
   
   
